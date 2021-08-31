@@ -37,7 +37,7 @@ main:
     	jal prim
 	addu $sp, $sp, 4
 
-caz2:							#incomplet
+caz2:							
 	la $a0, gen
 	li $v0, 4
 	syscall
